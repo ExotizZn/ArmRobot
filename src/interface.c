@@ -387,7 +387,7 @@ int main(int argc, char *argv[]) {
     TTF_Init();
 
     static int temp1 = 90, temp2 = 90, temp3 = 90, temp4 = 90, temp5 = 90, temp6 = 90;
-    static char *etiquettes[NB_CURSEURS] = {"Base", "Épaule", "Coude", "Poignet", "Pinces", "Rotation"};
+    static char *etiquettes[NB_CURSEURS] = {"Coude", "Pinces", "Poignet 1", "Poignet 2", "Epaule", "Base"};
     static SDL_Color paires_couleurs[NB_CURSEURS][2] = {
         {{255, 80, 80, 255},   {255, 200, 80, 255}},
         {{255, 255, 80, 255},  {60, 255, 120, 255}},
